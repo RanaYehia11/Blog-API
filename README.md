@@ -24,7 +24,7 @@ It uses **Entity Framework Core** with **SQL Server** for database operations.
 
 ## API Endpoints  
 
-## Author Management
+# Author Management
 - GET /api/authors → Get all authors  
 - GET /api/authors/{id} → Get author by ID  
 - GET /api/authors/{id}/posts → Get all posts by a specific author  
@@ -34,7 +34,7 @@ It uses **Entity Framework Core** with **SQL Server** for database operations.
 
 ---
 
-## Post Management
+# Post Management
 - GET /api/posts → Get all posts  
 - GET /api/posts/{id} → Get post by ID  
 - GET /api/posts/{postId}/comments → Get all comments for a post  
@@ -44,7 +44,7 @@ It uses **Entity Framework Core** with **SQL Server** for database operations.
 
 ---
 
-## Comment Management
+# Comment Management
 - GET /api/comments → Get all comments  
 - GET /api/comments/{id} → Get comment by ID  
 - POST /api/comments/add → Add a comment  
